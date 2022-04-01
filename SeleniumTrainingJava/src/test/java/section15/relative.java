@@ -25,8 +25,10 @@ public class relative {
         WebElement iceCream = driver.findElement(By.cssSelector("label[for='exampleCheck1']"));
         driver.findElement(with(By.tagName("input")).toLeftOf(iceCream)).click();
 
-        WebElement iceCream = driver.findElement(By.cssSelector("label[for='exampleCheck1']"));
+        iceCream = driver.findElement(By.cssSelector("label[for='exampleCheck1']"));
         driver.findElement(with(By.tagName("input")).toLeftOf(iceCream)).click();
         driver.findElement(with(By.tagName("input")).toLeftOf(iceCream)).click();
+
+        driver.close();
     }
 }
