@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Department Loan">
+    <test verbose="2"
+          name="Personal Loan">
+    </test>
+    <packages>
+        <package name="section18"></package>
+    </packages>
+</suite>

@@ -29,6 +29,10 @@ public class relative {
         driver.findElement(with(By.tagName("input")).toLeftOf(iceCream)).click();
         driver.findElement(with(By.tagName("input")).toLeftOf(iceCream)).click();
 
+        WebElement rbutton = driver.findElement(By.id("inlineRadio1"));
+        String radioText = driver.findElement(with(By.tagName("label")).toRightOf(rbutton)).getText();
+        System.out.println(radioText);
+
         driver.close();
     }
 }

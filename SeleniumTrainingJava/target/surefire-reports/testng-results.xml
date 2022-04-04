@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Department Loan" duration-ms="173" started-at="2022-04-04T15:25:15 CST" finished-at="2022-04-04T15:25:15 CST">
+    <groups>
+    </groups>
+    <test name="Personal Loan" duration-ms="116" started-at="2022-04-04T15:25:15 CST" finished-at="2022-04-04T15:25:15 CST">
+      <class name="section18.TestNGT2">
+        <test-method status="PASS" signature="demo3()[pri:0, instance:section18.TestNGT2@3f191845]" name="demo3" duration-ms="1" started-at="2022-04-04T15:25:15 CST" finished-at="2022-04-04T15:25:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method status="PASS" signature="demo4()[pri:0, instance:section18.TestNGT2@3f191845]" name="demo4" duration-ms="0" started-at="2022-04-04T15:25:15 CST" finished-at="2022-04-04T15:25:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+      </class> <!-- section18.TestNGT2 -->
+      <class name="section18.TestNGT">
+        <test-method status="PASS" signature="demo()[pri:0, instance:section18.TestNGT@4c60d6e9]" name="demo" duration-ms="10" started-at="2022-04-04T15:25:15 CST" finished-at="2022-04-04T15:25:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- section18.TestNGT -->
+    </test> <!-- Personal Loan -->
+    <test name="Car Loan" duration-ms="3" started-at="2022-04-04T15:25:15 CST" finished-at="2022-04-04T15:25:15 CST">
+      <class name="section18.TestNGT3">
+        <test-method status="PASS" signature="APILoginCarLoan()[pri:0, instance:section18.TestNGT3@66982506]" name="APILoginCarLoan" duration-ms="0" started-at="2022-04-04T15:25:15 CST" finished-at="2022-04-04T15:25:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method status="PASS" signature="webLoginCarLoan()[pri:0, instance:section18.TestNGT3@66982506]" name="webLoginCarLoan" duration-ms="0" started-at="2022-04-04T15:25:15 CST" finished-at="2022-04-04T15:25:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+      </class> <!-- section18.TestNGT3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Department Loan -->
+</testng-results>
