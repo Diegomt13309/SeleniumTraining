@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <listeners>
+        <listener class-name="section18.Listeners"/>
+    </listeners>
+    <parameter name="URL" value="qaclickacademy.com"/>
+    <parameter name="APIKey/usrname" value="123456"/>
+    <test verbose="2"
+          name="Regression">
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="section18.TestNGT"/>
+            <class name="section18.TestNGT2"/>
+            <class name="section18.TestNGT3"/>
+            <class name="section18.TestNGT4"/>
+        </classes>
+    </test>
+</suite>

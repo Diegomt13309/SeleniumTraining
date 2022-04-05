@@ -1,5 +1,6 @@
 package section18;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestNGT4 {
@@ -16,10 +17,11 @@ public class TestNGT4 {
         System.out.println("Mobile Login Home Loan");
     }
 
-    @Test
+    @Test(groups = {"Smoke"})
     public void APILoginHomeLoan(){
         //Rest API automation
         System.out.println("API Login Home Loan");
+        Assert.fail();
     }
 
 
