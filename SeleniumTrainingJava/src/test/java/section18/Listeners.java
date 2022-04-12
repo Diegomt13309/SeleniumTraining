@@ -20,7 +20,7 @@ public class Listeners implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
         System.out.println("On Test Failure");
-        System.out.println(result.id()+" "+result.getName()+" "+result.getStatus());
+        System.out.println(result.id()+" "+result.getName()+" "+result.getStatus()+" "+result.getTestName());
     }
 
     @Override
